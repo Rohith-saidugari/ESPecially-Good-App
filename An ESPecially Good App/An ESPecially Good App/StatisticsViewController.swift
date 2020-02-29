@@ -8,10 +8,11 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class StatisticsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.title="Statistics"
         // Do any additional setup after loading the view.
     }
 

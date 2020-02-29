@@ -8,10 +8,11 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class GuessViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.title="Guess the Answer"
         // Do any additional setup after loading the view.
     }
 
