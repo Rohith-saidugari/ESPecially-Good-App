@@ -85,16 +85,25 @@
                                 <rect key="frame" x="20" y="383" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Circle"/>
+                                <connections>
+                                    <action selector="tappedCircle" destination="9pv-A4-QxB" eventType="touchUpInside" id="MWn-35-eRF"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QeA-bA-r5G">
                                 <rect key="frame" x="157" y="382" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Triangle"/>
+                                <connections>
+                                    <action selector="tappedTriangle" destination="9pv-A4-QxB" eventType="touchUpInside" id="mkL-QI-3er"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vih-Al-DS4">
                                 <rect key="frame" x="294" y="383" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Star"/>
+                                <connections>
+                                    <action selector="tappedStar" destination="9pv-A4-QxB" eventType="touchUpInside" id="veD-Kq-SuU"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0/0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bG-q6-beq">
                                 <rect key="frame" x="123" y="582" width="169" height="115"/>
@@ -121,6 +130,10 @@
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
                     <navigationItem key="navigationItem" id="X6j-CW-iex"/>
+                    <connections>
+                        <outlet property="resultLBL" destination="ise-Rt-0Bx" id="1nh-Kf-4gq"/>
+                        <outlet property="scoreLBL" destination="0bG-q6-beq" id="ifl-VZ-lbg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>

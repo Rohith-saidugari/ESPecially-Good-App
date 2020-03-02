@@ -17,6 +17,7 @@
 		3FC658B4240AD26500D985E3 /* An_ESPecially_Good_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC658B3240AD26500D985E3 /* An_ESPecially_Good_AppTests.swift */; };
 		3FC658BF240AD26500D985E3 /* An_ESPecially_Good_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC658BE240AD26500D985E3 /* An_ESPecially_Good_AppUITests.swift */; };
 		3FC658CD240AD3A900D985E3 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC658CC240AD3A900D985E3 /* HistoryTableViewController.swift */; };
+		3FC658CF240AE26E00D985E3 /* Predictions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC658CE240AE26E00D985E3 /* Predictions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		3FC658BE240AD26500D985E3 /* An_ESPecially_Good_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = An_ESPecially_Good_AppUITests.swift; sourceTree = "<group>"; };
 		3FC658C0240AD26500D985E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FC658CC240AD3A900D985E3 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		3FC658CE240AE26E00D985E3 /* Predictions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predictions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				3FC658A5240AD26500D985E3 /* Assets.xcassets */,
 				3FC658A7240AD26500D985E3 /* LaunchScreen.storyboard */,
 				3FC658AA240AD26500D985E3 /* Info.plist */,
+				3FC658CE240AE26E00D985E3 /* Predictions.swift */,
 			);
 			path = "An ESPecially Good App";
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				3FC6589F240AD25F00D985E3 /* GuessViewController.swift in Sources */,
 				3FC6589B240AD25F00D985E3 /* AppDelegate.swift in Sources */,
 				3FC6589D240AD25F00D985E3 /* SceneDelegate.swift in Sources */,
+				3FC658CF240AE26E00D985E3 /* Predictions.swift in Sources */,
 				3FC658CD240AD3A900D985E3 /* HistoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
